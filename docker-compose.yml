@@ -1,0 +1,16 @@
+services:
+  db:
+    container_name: casa3
+    image: postgres:latest
+    ports:
+      - 9000:5432
+    environment:
+      POSTGRES_PASSWORD: root
+ ## app:
+ ##   restart: always
+ ##   container_name: casa2
+  ##  image: producto3:latest
+ ##   ports:
+ ##     - 8000:8000
+
+
